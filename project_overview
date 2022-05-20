@@ -1,0 +1,43 @@
+The idea is a shiny app that would work well on mobile and it would simply allow you to select an activity you have performed, and for how long roughly it took.
+
+It could include bleeps - number/location/how long spent dealing with it.
+Patient reviews in ED
+Patient reviews in A23
+Trips to theatre
+Obstetric tasks - reviews on LS or ABC
+Procedures in labour ward theatre
+
+
+If the review happened in ED instead of GTU, was this because of patient acuity or lack of staffing.
+
+Then it would be able to output a total for a shift, so would need to deal with times and record shift start and end times, detailing how much time was spent doing what.
+
+It is probably similar to fitness tracking apps, I could see if any of those exist for Shiny and take inspiraiton
+
+But the basic function would be something like
+
+***Record Activity***
+header/box title
+
+
+***Drop down box of activity options***
+radio button select and also "not in this list"
+
+
+***Time started***
+use a slider or clock funciton or digital entry, need to deal with date and times
+
+
+***Duration to nearest minute***
+slider and using minutes
+
+***Conditional questions***
+if ED - was it because patient unwell, was it because no room in GTU, was it because of covid, was it patient likely for admission so to save multiple transfers
+if A23 - was it reg only review or was it just because it was busy,  
+theatre - emergency case that came in overnight, emergency case that wasn't done in the daytime
+obstetric - review in ABC because SHO busy/patient acuity.
+procedures - what was it - CS/repair/PPH/MROP/trial
+
+
+*** Submit***
+save to a data file somewhere.
